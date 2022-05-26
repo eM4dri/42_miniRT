@@ -1,5 +1,5 @@
 # miniRT
-This project is an introduction to the beautiful world of Raytracing. In collaboration with @JorgeVB20007 (42 student jvacaris).
+This project is an introduction to the beautiful world of Raytracing. In collaboration with @jvacaris (42 login).
 This program recieves a `.rt` formatted file which contains a series of objects (`A`mbient light, `C`amera, `L`ights, `sp`heres, `pl`anes, `cy`linders and `b`lack `h`oles [bonus only]) and must display them as specified on a new window.
 Every object must be set on a different line in the input file. Each type of object must have its own format:
 
