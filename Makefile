@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: jvacaris <jvacaris@student.42.fr>          +#+  +:+       +#+         #
+#    By: emadriga <emadriga@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/07/17 19:44:26 by emadriga          #+#    #+#              #
-#    Updated: 2022/04/27 19:11:00 by jvacaris         ###   ########.fr        #
+#    Updated: 2022/06/17 23:38:37 by emadriga         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,9 +20,9 @@ GCC		= clang
 FLAGS	= -Wall -Wextra -Werror $(SANITIZE) -pedantic
 
 # sanitize
-# SANITIZE =
+SANITIZE = -Ofast
 # SANITIZE = -g3 -fsanitize=address
-SANITIZE = -Ofast -fsanitize=address
+# SANITIZE = -Ofast -fsanitize=address
 
 # Header files
 INCLUDES_FILES =	constants.h				\
